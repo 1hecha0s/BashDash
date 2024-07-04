@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico">
+        <title>Web Application Wiki!</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <h1>Web Application Wiki</h1>
+        <hr>
+        $(
+            cd ./app/topics/$topic_name
+            counter=0
+            for topic in *
+            do
+                counter=$((counter+1))
+                echo "<div><a href='/comics/topic_name/counter'>$chapter</a></div>"
+            done
+        )
+    </body>
+</html>
